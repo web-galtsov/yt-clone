@@ -1,13 +1,13 @@
-[debug] [2022-08-24T18:30:34.112Z] ----------------------------------------------------------------------
-[debug] [2022-08-24T18:30:34.114Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
-[debug] [2022-08-24T18:30:34.115Z] CLI Version:   11.8.0
-[debug] [2022-08-24T18:30:34.115Z] Platform:      win32
-[debug] [2022-08-24T18:30:34.115Z] Node Version:  v17.8.0
-[debug] [2022-08-24T18:30:34.131Z] Time:          Wed Aug 24 2022 21:30:34 GMT+0300 (Israel Daylight Time)
-[debug] [2022-08-24T18:30:34.131Z] ----------------------------------------------------------------------
+[debug] [2022-08-24T18:54:37.282Z] ----------------------------------------------------------------------
+[debug] [2022-08-24T18:54:37.284Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-08-24T18:54:37.284Z] CLI Version:   11.8.0
+[debug] [2022-08-24T18:54:37.285Z] Platform:      win32
+[debug] [2022-08-24T18:54:37.285Z] Node Version:  v17.8.0
+[debug] [2022-08-24T18:54:37.286Z] Time:          Wed Aug 24 2022 21:54:37 GMT+0300 (Israel Daylight Time)
+[debug] [2022-08-24T18:54:37.286Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2022-08-24T18:30:34.210Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2022-08-24T18:30:34.211Z] > authorizing via signed-in user (ogoksana400@gmail.com)
+[debug] [2022-08-24T18:54:37.353Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-24T18:54:37.353Z] > authorizing via signed-in user (ogoksana400@gmail.com)
 [info] 
      ######## #### ########  ######## ########     ###     ######  ########
      ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
@@ -30,60 +30,12 @@ Before we get started, keep in mind:
 [info] You can create multiple project aliases by running firebase use --add, 
 [info] but for now we'll just set up a default project.
 [info] 
-[debug] [2022-08-24T18:33:07.511Z] Using project from CLI flag: not-yt
-[debug] [2022-08-24T18:33:07.542Z] > refreshing access token with scopes: []
-[debug] [2022-08-24T18:33:07.563Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
-[debug] [2022-08-24T18:33:07.563Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
-[debug] [2022-08-24T18:33:08.189Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
-[debug] [2022-08-24T18:33:08.190Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
-[debug] [2022-08-24T18:33:08.261Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/not-yt [none]
-[debug] [2022-08-24T18:33:11.763Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/not-yt 403
-[debug] [2022-08-24T18:33:11.763Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/not-yt {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
-[debug] [2022-08-24T18:33:11.767Z] HTTP Error: 403, The caller does not have permission
-[debug] [2022-08-24T18:33:12.068Z] FirebaseError: HTTP Error: 403, The caller does not have permission
-    at responseToError (C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
-    at RetryOperation._fn (C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)
-[error] 
-[error] Error: Failed to get Firebase project not-yt. Please make sure the project exists and your account has permission to access it.
-[debug] [2022-08-24T18:33:44.533Z] ----------------------------------------------------------------------
-[debug] [2022-08-24T18:33:44.535Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
-[debug] [2022-08-24T18:33:44.536Z] CLI Version:   11.8.0
-[debug] [2022-08-24T18:33:44.536Z] Platform:      win32
-[debug] [2022-08-24T18:33:44.536Z] Node Version:  v17.8.0
-[debug] [2022-08-24T18:33:44.550Z] Time:          Wed Aug 24 2022 21:33:44 GMT+0300 (Israel Daylight Time)
-[debug] [2022-08-24T18:33:44.551Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2022-08-24T18:33:44.629Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2022-08-24T18:33:44.630Z] > authorizing via signed-in user (ogoksana400@gmail.com)
-[info] 
-     ######## #### ########  ######## ########     ###     ######  ########
-     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
-     ######    ##  ########  ######   ########  #########  ######  ######
-     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
-     ##       #### ##     ## ######## ########  ##     ##  ######  ########
-
-You're about to initialize a Firebase project in this directory:
-
-  D:\Node-React-Angular\NEW-SITE-MY\Youtube Clone (Redux, JWT, Cookies)\Fully Functional YouTube Clone ( React , Redux,  Firebase , YouTube API)\yt-clone
-
-Before we get started, keep in mind:
-
-  * You are initializing within an existing Firebase project directory
-
-[info] 
-=== Project Setup
-[info] 
-[info] First, let's associate this project directory with a Firebase project.
-[info] You can create multiple project aliases by running firebase use --add, 
-[info] but for now we'll just set up a default project.
-[info] 
-[debug] [2022-08-24T18:36:04.504Z] Using project from CLI flag: not-yt
-[debug] [2022-08-24T18:36:04.510Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/not-yt [none]
-[debug] [2022-08-24T18:36:08.101Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/not-yt 403
-[debug] [2022-08-24T18:36:08.102Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/not-yt {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
-[debug] [2022-08-24T18:36:08.102Z] HTTP Error: 403, The caller does not have permission
-[debug] [2022-08-24T18:36:08.323Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+[debug] [2022-08-24T18:54:48.432Z] Using project from CLI flag: not-yt
+[debug] [2022-08-24T18:54:48.435Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/not-yt [none]
+[debug] [2022-08-24T18:54:52.001Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/not-yt 403
+[debug] [2022-08-24T18:54:52.002Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/not-yt {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-08-24T18:54:52.002Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-08-24T18:54:52.314Z] FirebaseError: HTTP Error: 403, The caller does not have permission
     at responseToError (C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
     at RetryOperation._fn (C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
     at processTicksAndRejections (node:internal/process/task_queues:96:5)

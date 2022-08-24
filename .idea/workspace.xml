@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53dd4860-fcb3-470a-a66e-a1c6a6c7b04b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase-debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/firebase-debug.log" afterDir="false" />
-    </list>
+    <list default="true" id="53dd4860-fcb3-470a-a66e-a1c6a6c7b04b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +44,7 @@
       <option name="presentableId" value="Default" />
       <updated>1661350814173</updated>
       <workItem from="1661350818381" duration="39000" />
-      <workItem from="1661350992603" duration="11861000" />
+      <workItem from="1661350992603" duration="12231000" />
     </task>
     <servers />
   </component>

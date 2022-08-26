@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './_video.scss'
-
 import { AiFillEye } from 'react-icons/ai'
 import request from '../../api'
-
 import moment from 'moment'
 import numeral from 'numeral'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
@@ -70,7 +68,6 @@ const Video = ({ video, channelScreen }) => {
    return (
       <div className='video' onClick={handleVideoClick}>
          <div className='video__top'>
-            {/* <img src={medium.url} alt='' /> */}
             <LazyLoadImage src={medium.url} effect='blur' />
             <span className='video__top__duration'>{_duration}</span>
          </div>

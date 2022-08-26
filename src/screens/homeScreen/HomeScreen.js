@@ -36,7 +36,7 @@ const HomeScreen = () => {
             next={fetchData}
             hasMore={true}
             loader={
-               <div className='spinner-border text-danger d-block mx-auto'></div>
+               <div className='spinner-border text-danger d-block mx-auto'/>
             }
             className='row'>
             {!loading
@@ -46,7 +46,7 @@ const HomeScreen = () => {
                     </Col>
                  ))
                : [...Array(20)].map(() => (
-                    <Col lg={3} md={4}>
+                    <Col lg={3} md={4} >
                        <SkeletonVideo />
                     </Col>
                  ))}

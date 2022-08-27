@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53dd4860-fcb3-470a-a66e-a1c6a6c7b04b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.firebaserc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/comments/Comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/comments/Comments.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sidebar/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidebar/Sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/video/Video.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/video/Video.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions/auth.action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/auth.action.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/homeScreen/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/homeScreen/HomeScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/loginScreen/LoginScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/loginScreen/LoginScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +58,8 @@
       <workItem from="1661350992603" duration="55262000" />
       <workItem from="1661462565952" duration="14119000" />
       <workItem from="1661511197195" duration="3155000" />
-      <workItem from="1661535976942" duration="7115000" />
+      <workItem from="1661535976942" duration="8252000" />
+      <workItem from="1661594733917" duration="2367000" />
     </task>
     <servers />
   </component>
